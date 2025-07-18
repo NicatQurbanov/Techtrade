@@ -1,0 +1,189 @@
+:root {
+    --blue: #35a6b4;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+main {
+    width: 80%;
+    margin: 200px auto;
+    
+}
+
+header {
+    height: 100px;
+
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+   list-style-type: none;
+   padding-inline-start: 0px;
+}
+
+.header-nav {
+    
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 150px;
+}
+
+.main-logo {
+    width: 6%;
+    float: left;
+    margin: 15px 150px;
+}
+
+a { 
+  text-decoration: none;
+}
+
+.header-nav li a {
+    
+    transition: all 0.5s ease;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.header-nav li a:hover {
+  color: #3da8b5;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 60px;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 430px auto;
+}
+
+.intro-button-list {
+    display: grid;
+    grid-template-columns: 60% auto;
+    margin-top: 30px;
+    gap: 25px;
+}
+
+.intro-button-list li a {
+    width: 100%;
+    
+ 
+}
+
+.blue-button, .border-button:hover, .container-items1:hover {
+    background-color: var(--blue);
+    
+    color: white;
+}
+
+.sample-button {
+    height: 53px;
+    font-size: 1.1rem;
+    
+}
+
+.button-container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border-button, .blue-button:first-of-type:hover {
+    border: 3px solid var(--blue);
+    color: black;
+}
+
+.blue-button:first-of-type, .border-button {
+    transition: all 0.5s ease;
+}
+
+.blue-button:first-of-type:hover {
+  background-color: white;
+  }
+
+
+.practice-areas, .why-techtrade {
+    margin-top: 220px;
+}
+
+.practice-areas > p {
+    text-align: center;
+    padding: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.container-items1 {
+    border: 2px solid black;
+    height: 480px;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-items1:hover {
+    border-color: var(--blue);
+    transform: scale(1.07);
+    
+}
+
+.bold2 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 30px;
+}
+
+.items1-paragraph, .bold2{
+    text-align: center;
+}
+
+.items1-paragraph {
+    margin-top: 25px;
+    padding: 30px;
+    font-size: 0.9rem;
+}
+
+.container-items1 svg {
+    margin-top: 50px;
+}
+
+.container-items1:hover svg path {
+    stroke: #fff;
+}
+
+.why-techtrade {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.why-techtrade .bold, .why-techtrade a  {
+    margin-bottom: 30px;
+
+}
+
+.why-techtrade a {
+    display: block;
+}
