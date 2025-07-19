@@ -10,9 +10,7 @@
 
 main {
     width: 80%;
-    margin: 200px auto;
-    
-}
+    margin: 0 auto;}
 
 header {
     height: 100px;
@@ -67,6 +65,7 @@ a {
 .intro {
     display: grid;
     grid-template-columns: 430px auto;
+    align-items: center;
 }
 
 .intro-button-list {
@@ -114,8 +113,8 @@ a {
   }
 
 
-.practice-areas, .why-techtrade {
-    margin-top: 220px;
+section{
+    margin-top: 240px;
 }
 
 .practice-areas > p {
@@ -177,13 +176,70 @@ a {
 .why-techtrade {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    
 }
 
-.why-techtrade .bold, .why-techtrade a  {
-    margin-bottom: 30px;
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.blueButton2:hover {
+  background-color: #29828d;
+  border-color: #29828d;
+  color: white;
+}
+
+.blueButton2 {
+    width: 130px;
+    
+}
+
+.request {
+    display: grid;
+    grid-template-columns: 30% auto;
+    gap: 120px;
 
 }
 
-.why-techtrade a {
+.gridItem2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+#small-txt {
+    font-size: 0.75rem;
+}
+
+.gridItem1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.ovals {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.ovals a {
     display: block;
+    width: 30px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid black;
+    transition: all ease 0.5s;
+}
+
+.ovals a:hover {
+  background-color: #000;
+}
+
+#float {
+    float: right;
+    margin-bottom: 200px;
 }
