@@ -1,0 +1,39 @@
+.reports {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+    margin-bottom: 250px;
+}
+
+.report-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 40px;
+    font-size: 1.25rem;
+   
+}
+
+.txt-container {
+    width: 59%;
+   
+}
+
+.txt-container .bold {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.report-container {
+    width: 100%;
+}
+
+.report-list a {
+    color: black;
+}
+
+
+.report-list a:hover {
+   color: var(--blue);
+}

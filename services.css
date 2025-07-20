@@ -1,0 +1,48 @@
+.frame1::after {
+    width: 394px;
+    height: 591px;
+    border: 2px solid #000;
+    display: block;
+    content: '';
+    position: absolute;
+    top: 30px;
+    z-index: -1;
+    left: 610px;
+}
+
+.frame2::before {
+     width: 387px;
+    height: 580px;
+    border: 2px solid #000;
+    display: block;
+    content: '';
+    position: absolute;
+    top: 30px;
+    z-index: -1;
+    left: -35px;
+}
+
+section {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    gap: 70px;
+}
+
+.grid-container1:last-of-type {
+    margin-bottom: 250px;
+}
+
+.main-container .bold {
+    margin-bottom: 40px;
+}
+
+.readMore {
+    display: flex;
+     height: 50px;
+    width: 130px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
