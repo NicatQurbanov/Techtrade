@@ -249,7 +249,9 @@ section{
     border: 1px solid grey;
     height: 50px;
     width: 100%;
+    text-align: center;
 }
+
 
 .gridItem2 input::placeholder, select {
     text-align: center;

@@ -1,0 +1,74 @@
+.paragraph {
+    font-size: 0.9rem;
+}
+
+.list-heading {
+    height: 50px;
+    color: white;
+    font-size: 1.5rem;
+    background-color: var(--blue);
+    display: inline-block;
+    font-weight: bold;
+    padding: 6px 15px;
+}
+
+.visitcard {
+    background-color: var(--blue);
+    color: white;
+    display: inline-block;
+    padding: 17px 40px 17px 25px;
+}
+
+.bold-lists {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.normal-lists {
+    font-size: 1.1rem;
+}
+
+.firstSection {
+   display: grid;
+   grid-template-columns: 45% 55%;
+   align-items: center;
+   gap: 60px;
+   margin-top: 100px;
+   margin-left: 20px;
+}
+
+.firstSection p:first-child {
+    margin-bottom: 45px;
+}
+
+.compacted {
+    width: 54%;
+}
+
+.secondSection {
+    display: grid;
+    grid-template-columns: 50% 50%;
+   align-items: flex-end;
+   gap: 60px;
+    
+}
+
+.secondSection svg {
+    position: relative;
+    left: -195px;
+}
+
+.secondSection .bold, .list-heading, .secondSection .paragraph, .thirdSection .bold, .thirdSection .paragraph {
+    margin-bottom: 40px;
+}
+
+.thirdSection {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 100px;
+    margin-bottom: 250px;
+}
+
+.thirdSection img {
+    width: 80%;
+}
